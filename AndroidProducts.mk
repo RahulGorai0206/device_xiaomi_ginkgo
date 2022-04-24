@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_ginkgo.mk
+    $(LOCAL_DIR)/ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_ginkgo-user \
-    spark_ginkgo-userdebug \
-    spark_ginkgo-eng
+    ginkgo-user \
+    ginkgo-userdebug \
+    ginkgo-eng
